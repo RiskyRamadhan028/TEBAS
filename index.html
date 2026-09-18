@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beranda | Desa Tebas Sungai</title>
+<meta name="description" content="Website resmi promosi Desa Tebas Sungai, Kecamatan Tebas, Kabupaten Sambas, Kalimantan Barat.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">TS</span>
+      <span>Desa Tebas Sungai<small>Kabupaten Sambas</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false"><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html" aria-current="page">Beranda</a></li>
+      <li><a href="profil.html">Profil</a></li>
+      <li><a href="program.html">Program</a></li>
+      <li><a href="fasilitas.html">Fasilitas</a></li>
+      <li><a href="galeri.html">Galeri</a></li>
+      <li><a href="berita.html">Berita</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <span class="hero-eyebrow">Selamat datang di</span>
+      <h1>Desa Tebas Sungai</h1>
+      <p>Kecamatan Tebas, Kabupaten Sambas, Kalimantan Barat. Salah satu desa terpadat di Kecamatan Tebas, tumbuh di tepi Sungai Tebas dengan masyarakat yang ramah dan semangat gotong royong.</p>
+      <div class="hero-actions">
+        <a class="btn btn-red" href="profil.html">Tentang desa</a>
+        <a class="btn btn-outline" href="kontak.html">Lihat lokasi</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustrasi Sungai Tebas, sawah, rumah panggung dan masjid desa">
+        <defs>
+          <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#12283f"/>
+            <stop offset="100%" stop-color="#1c3a56"/>
+          </linearGradient>
+          <linearGradient id="riverGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2c86e8"/>
+            <stop offset="100%" stop-color="#144d99"/>
+          </linearGradient>
+          <linearGradient id="fieldGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#28b06c"/>
+            <stop offset="100%" stop-color="#147245"/>
+          </linearGradient>
+        </defs>
+
+        <rect x="0" y="0" width="420" height="320" fill="url(#skyGrad)"/>
+
+        <!-- matahari berdenyut -->
+        <circle class="sun-glow" cx="335" cy="66" r="40" fill="#e4482e"/>
+        <circle class="sun-glow" cx="335" cy="66" r="40" fill="#e4482e" opacity="0.25" r="56"/>
+
+        <!-- awan bergeser pelan -->
+        <g class="cloud-drift" opacity="0.5">
+          <ellipse cx="90" cy="55" rx="34" ry="11" fill="#ffffff"/>
+          <ellipse cx="112" cy="48" rx="22" ry="9" fill="#ffffff"/>
+        </g>
+        <g class="cloud-drift2" opacity="0.35">
+          <ellipse cx="220" cy="34" rx="26" ry="8" fill="#ffffff"/>
+        </g>
+
+        <!-- burung terbang -->
+        <g class="bird-flap" stroke="#e9edf3" stroke-width="2" fill="none" stroke-linecap="round">
+          <path d="M250 40 q7 -8 14 0 q7 -8 14 0"/>
+        </g>
+        <g class="bird-flap2" stroke="#e9edf3" stroke-width="2" fill="none" stroke-linecap="round">
+          <path d="M275 55 q6 -7 12 0 q6 -7 12 0"/>
+        </g>
+
+        <!-- perbukitan & sawah jauh -->
+        <path d="M0 195 C 70 178, 140 200, 210 185 C 280 170, 350 190, 420 178 L420 210 L0 210 Z" fill="url(#fieldGrad)" opacity="0.9"/>
+
+        <!-- garis petak sawah -->
+        <g stroke="#0f5b34" stroke-width="1.4" opacity="0.5">
+          <path d="M0 200 C 70 184, 140 205, 210 190" fill="none"/>
+          <path d="M30 209 L45 195 M80 209 L95 193 M130 209 L145 191 M180 209 L195 189" />
+        </g>
+
+        <!-- rumah panggung & masjid siluet di tepi sungai -->
+        <g fill="#0d1622" opacity="0.92">
+          <rect x="34" y="168" width="30" height="20" rx="2"/>
+          <polygon points="30,168 49,152 68,168"/>
+          <rect x="45" y="176" width="8" height="12"/>
+          <rect x="150" y="172" width="26" height="18" rx="2"/>
+          <polygon points="147,172 163,158 179,172"/>
+          <!-- masjid: kubah & menara -->
+          <rect x="245" y="160" width="34" height="28" rx="2"/>
+          <circle cx="262" cy="152" r="11"/>
+          <rect x="258" y="136" width="8" height="18"/>
+          <circle cx="262" cy="133" r="3"/>
+          <rect x="288" y="168" width="10" height="20"/>
+          <circle cx="293" cy="163" r="4"/>
+        </g>
+
+        <!-- sungai dengan riak berkilau -->
+        <path d="M0 250 C 90 230, 150 270, 240 245 C 300 228, 360 250, 420 240 L420 300 L0 300 Z" fill="url(#riverGrad)"/>
+        <g class="water-shimmer" stroke="#bfe0ff" stroke-width="1.6" opacity="0.55" fill="none">
+          <path d="M20 255 C 70 248, 110 262, 160 253"/>
+          <path d="M220 250 C 270 242, 320 256, 380 247"/>
+        </g>
+        <g class="water-shimmer2" stroke="#eaf5ff" stroke-width="1.2" opacity="0.4" fill="none">
+          <path d="M50 268 C 100 260, 150 274, 210 264"/>
+          <path d="M250 265 C 300 258, 350 270, 400 262"/>
+        </g>
+
+        <!-- perahu kecil terombang-ambing -->
+        <g class="boat-bob">
+          <path d="M195 238 L235 238 L227 248 L203 248 Z" fill="#1c2230"/>
+          <line x1="215" y1="238" x2="215" y2="222" stroke="#1c2230" stroke-width="2"/>
+          <path d="M215 224 L232 236 L215 236 Z" fill="#e4482e"/>
+        </g>
+
+        <!-- tanah / jalan desa -->
+        <path d="M0 300 L420 300 L420 320 L0 320 Z" fill="#e4482e" opacity="0.92"/>
+
+        <!-- pohon kelapa bergoyang di tepi -->
+        <g class="leaf-sway">
+          <line x1="18" y1="300" x2="14" y2="266" stroke="#7a5030" stroke-width="4"/>
+          <path d="M14 266 C -2 258, -6 246, 4 240 C 10 252, 14 258, 14 266 Z" fill="#1f9d5c"/>
+          <path d="M14 266 C 30 258, 36 246, 26 240 C 20 252, 14 258, 14 266 Z" fill="#1f9d5c"/>
+          <path d="M14 266 C 6 250, 16 240, 14 232" fill="none" stroke="#1f9d5c" stroke-width="4"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section class="stats">
+  <div class="wrap stats-grid">
+    <div class="stat"><b data-count="8259">0</b><span>Jiwa penduduk (sensus 2010)</span></div>
+    <div class="stat"><b data-count="405">0</b><span>Kepala keluarga</span></div>
+    <div class="stat"><b data-count="5">0</b><span>Dusun</span></div>
+    <div class="stat"><b data-count="20,30" data-suffix=" km²">0</b><span>Luas wilayah</span></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Sekilas desa</span>
+      <h2>Kampung di tepi Sungai Tebas</h2>
+      <p>Desa Tebas Sungai berkembang dari pembukaan lahan di sekitar Sungai Tebas sejak masa Kesultanan Sambas. Kini desa ini menjadi salah satu desa dengan penduduk terpadat di Kecamatan Tebas, dengan aktivitas warga yang berpusat pada pertanian, perdagangan, dan pendidikan.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Pertanian</h3>
+        <p>Sawah dan kebun di sepanjang aliran Sungai Tebas menjadi sumber penghidupan utama sebagian besar warga.</p>
+      </div>
+      <div class="card">
+        <h3>Pendidikan</h3>
+        <p>Tersedia TK/PAUD, SD, MI, SMP, hingga SMA/SMK, menjadikan desa ini pusat pendidikan bagi desa-desa sekitarnya.</p>
+      </div>
+      <div class="card">
+        <h3>Kehidupan sosial</h3>
+        <p>Sebelas masjid dan enam surau menjadi pusat kegiatan ibadah dan sosial warga di lima dusun.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block tight" style="background:var(--paper-tint); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap grid-2">
+    <div>
+      <span class="kicker">Berita terbaru</span>
+      <h2>Kabar dari desa</h2>
+    </div>
+    <div>
+      <div class="news-item">
+        <span class="news-date">12 Agustus 2026</span>
+        <h3>Gotong royong bersihkan bantaran Sungai Tebas</h3>
+        <p>Warga lima dusun bersama perangkat desa membersihkan bantaran sungai menjelang musim hujan.</p>
+      </div>
+      <div class="news-item">
+        <span class="news-date">3 Agustus 2026</span>
+        <h3>Posyandu rutin digelar di setiap dusun</h3>
+        <p>Kegiatan pemeriksaan kesehatan bulanan berlangsung dengan dukungan bidan dan kader posyandu desa.</p>
+      </div>
+      <p><a href="berita.html">Lihat semua berita &nbsp;›</a></p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>Desa Tebas Sungai</h3>
+        <p>Kecamatan Tebas, Kabupaten Sambas, Kalimantan Barat, 79461.</p>
+      </div>
+      <div>
+        <h3>Tautan</h3>
+        <a href="profil.html">Profil</a>
+        <a href="program.html">Program</a>
+        <a href="fasilitas.html">Fasilitas</a>
+        <a href="galeri.html">Galeri</a>
+      </div>
+      <div>
+        <h3>Kontak</h3>
+        <a href="kontak.html">Kantor Desa</a>
+        <a href="berita.html">Berita</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Desa Tebas Sungai | Website Desa Tebas Sungai</span>
+      <span>Website Promosi Desa</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
